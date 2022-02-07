@@ -1,0 +1,32 @@
+<?php
+echo '<html>';
+echo '<head>';
+echo '<meta charset="utf-8">';
+echo '<meta name="viewport" content="width=device-width">';
+echo '<style>';
+echo 'body {';
+echo 'background: #0098ff;';
+echo 'display: flex;';
+echo 'height: 100vh;';
+echo 'margin: 0;';
+echo 'align-items: center;';
+echo 'justify-content: center;';
+echo 'padding: 0 50px;';
+echo 'font-family: -apple-system, BlinkMacSystemFont, sans-serif;';
+echo '}';
+echo 'video {';
+echo 'max-width: calc(50% - 100px);';
+echo 'margin: 0 50px;';
+echo 'box-sizing: border-box;';
+echo 'border-radius: 2px;';
+echo 'padding: 0;';
+echo 'background: white;';
+echo '}';
+echo '</style>';
+echo '</head>';
+echo '<body>';
+echo '<video id="localVideo" autoplay muted></video>';
+echo '<video id="remoteVideo" autoplay></video>';
+echo '</body>';
+echo '</html>';
+?>
